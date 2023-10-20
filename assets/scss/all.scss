@@ -9,3 +9,22 @@
 @import './pages/index.scss';
 
 @import "../../node_modules/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Noto+Sans&family=Noto+Sans+HK:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+  img{max-width: 100%;height: auto; }
+// font
+body{font-family: 'Castoro', serif;
+
+    font-family: 'Noto Sans', sans-serif;
+    // font-family: 'Noto Sans HK', sans-serif;
+    font-size: 16px;
+    color:#3A3A3A ;
+}
+.font-Kalam{font-family: 'Kalam', cursive;}
+.container{max-width: 1440px;}
